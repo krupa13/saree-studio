@@ -125,14 +125,14 @@ export default function ContactPage() {
                 <input
                   suppressHydrationWarning
                   {...register("name")}
-                  className="h-12 w-full rounded-md border-2 border-charcoal/40 bg-white px-4 text-charcoal outline-none transition-all focus:border-roseRoyal focus:ring-0 focus:outline-none"
+                  className="h-12 w-full rounded-md border border-charcoal/20 bg-white px-4 text-charcoal outline-none transition duration-200 focus:border-maroon focus:ring-2 focus:ring-maroon/15"
                 />
               </FormField>
               <FormField label="Phone Number" error={errors.phone?.message}>
                 <input
                   suppressHydrationWarning
                   {...register("phone")}
-                  className="h-12 w-full rounded-md border-2 border-charcoal/40 bg-white px-4 text-charcoal outline-none transition-all focus:border-roseRoyal focus:ring-0 focus:outline-none"
+                  className="h-12 w-full rounded-md border border-charcoal/20 bg-white px-4 text-charcoal outline-none transition duration-200 focus:border-maroon focus:ring-2 focus:ring-maroon/15"
                 />
               </FormField>
             </div>
@@ -142,7 +142,7 @@ export default function ContactPage() {
                 suppressHydrationWarning
                 type="email"
                 {...register("email")}
-                className="h-12 w-full rounded-md border-2 border-charcoal/40 bg-white px-4 text-charcoal outline-none transition-all focus:border-roseRoyal focus:ring-0 focus:outline-none"
+                className="h-12 w-full rounded-md border border-charcoal/20 bg-white px-4 text-charcoal outline-none transition duration-200 focus:border-maroon focus:ring-2 focus:ring-maroon/15"
               />
             </FormField>
 
@@ -152,7 +152,7 @@ export default function ContactPage() {
                 {...register("message")}
                 rows={6}
                 placeholder="Occasion, color preference, fabric, budget range, or any styling question..."
-                className="w-full resize-none rounded-md border-2 border-charcoal/40 bg-white px-4 py-3 text-charcoal outline-none transition-all placeholder:text-charcoal/40 focus:border-roseRoyal focus:ring-0 focus:outline-none"
+                className="w-full resize-none rounded-md border border-charcoal/20 bg-white px-4 py-3 text-charcoal outline-none transition duration-200 placeholder:text-charcoal/40 focus:border-maroon focus:ring-2 focus:ring-maroon/15"
               />
             </FormField>
 

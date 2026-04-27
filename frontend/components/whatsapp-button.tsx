@@ -16,7 +16,7 @@ export function WhatsAppButton() {
     return () => window.removeEventListener("resize", updateDevice);
   }, []);
 
-  const message = `Hi Saree Studio | Saree booking Service! I need more info about Saree Studio | Saree booking Service ${siteConfig.siteUrl}`;
+  const message = `Hi Sravani Pleats | Saree Pre-Pleating Service! I need more info about Saree Studio | Saree Pre-Pleating Service! ${siteConfig.siteUrl}`;
   const encodedMessage = encodeURIComponent(message);
   const href = isDesktop
     ? `https://web.whatsapp.com/send?phone=${siteConfig.whatsapp}&text=${encodedMessage}`

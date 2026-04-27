@@ -35,7 +35,7 @@ export function Header() {
                 animate={{ scale: [1, 1.18, 1], opacity: [0.35, 0, 0.35] }}
                 transition={{ duration: 2.8, repeat: Infinity, ease: "easeInOut" }}
               />
-              <span className="relative z-10">SS</span>
+              <span className="relative z-10">SP</span>
             </motion.span>
             <motion.span
               initial={{ opacity: 0, x: -10 }}

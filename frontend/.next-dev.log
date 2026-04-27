@@ -10,3 +10,58 @@
  ✓ Ready in 2.7s
  ○ Compiling /gallery ...
  ✓ Compiled /gallery in 4s (1626 modules)
+ GET /gallery 200 in 5476ms
+ GET /gallery 200 in 176ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1130ms (1642 modules)
+ GET / 200 in 1448ms
+ GET / 200 in 78ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 833ms (1648 modules)
+ GET /about 200 in 1195ms
+ GET /gallery 200 in 63ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 946ms (1695 modules)
+ GET /contact 200 in 1196ms
+ ✓ Compiled in 1497ms (1709 modules)
+ GET / 200 in 815ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.3s (1700 modules)
+ GET /gallery/kanjivaram-silk-01.jpg 404 in 5285ms
+ GET /gallery 200 in 47ms
+ GET / 200 in 71ms
+ GET /gallery 200 in 25ms
+ GET /contact 200 in 68ms
+ GET / 200 in 39ms
+ GET /contact 200 in 35ms
+ ✓ Compiled in 1060ms (1709 modules)
+ GET /contact 200 in 172ms
+ ✓ Compiled in 728ms (1709 modules)
+ GET /contact 200 in 142ms
+ GET /contact 200 in 487ms
+ GET / 200 in 49ms
+ GET /contact 200 in 24ms
+ ✓ Compiled in 950ms (1709 modules)
+ GET /contact 200 in 257ms
+ GET / 200 in 50ms
+ GET /about 200 in 67ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 931ms (1700 modules)
+ GET /gallery/banarasi-brocade-02.jpg 404 in 1670ms
+ GET /gallery 200 in 48ms
+ ✓ Compiled in 1758ms (1714 modules)
+ GET /gallery 200 in 326ms
+ GET /gallery 200 in 343ms
+ GET /contact 200 in 52ms
+ ✓ Compiled in 1080ms (1709 modules)
+ GET /contact 200 in 717ms
+ GET /contact 200 in 507ms
+ GET /contact 200 in 131ms
+ GET / 200 in 47ms
+ GET /about 200 in 56ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 649ms (1700 modules)
+ GET /gallery/banarasi-brocade-02.jpg 404 in 1201ms
+ GET /gallery 200 in 34ms
+ GET /contact 200 in 83ms
+ GET / 200 in 62ms
