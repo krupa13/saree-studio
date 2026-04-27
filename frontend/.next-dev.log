@@ -1,0 +1,12 @@
+
+> saree-studio-frontend@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.5.15
+   - Local:        http://localhost:3000
+   - Network:      http://172.20.10.5:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.7s
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 4s (1626 modules)

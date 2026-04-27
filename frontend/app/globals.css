@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fdf6ec;
+  --foreground: #2c2c2c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(248, 215, 218, 0.65), transparent 34rem),
+    linear-gradient(180deg, #fffaf2 0%, #fdf6ec 54%, #fff8ef 100%);
+  color: var(--foreground);
+}
+
+.gold-shimmer-link {
+  position: relative;
+  overflow: hidden;
+}
+
+.gold-shimmer-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.3rem;
+  height: 2px;
+  width: 100%;
+  transform: translateX(-110%);
+  background: linear-gradient(90deg, transparent, #d4af37, #fff0ad, #d4af37, transparent);
+  transition: transform 0.45s ease;
+}
+
+.gold-shimmer-link:hover::after,
+.gold-shimmer-link:focus-visible::after {
+  transform: translateX(0);
+}
+
+.saree-texture {
+  background:
+    linear-gradient(135deg, rgba(116, 16, 52, 0.86), rgba(194, 24, 91, 0.72)),
+    radial-gradient(circle at 22% 18%, rgba(212, 175, 55, 0.34), transparent 20rem),
+    repeating-linear-gradient(45deg, rgba(255, 246, 224, 0.13) 0 2px, transparent 2px 18px),
+    linear-gradient(120deg, #741034, #c2185b 54%, #8e183f);
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
