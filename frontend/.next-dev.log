@@ -65,3 +65,25 @@
  GET /gallery 200 in 34ms
  GET /contact 200 in 83ms
  GET / 200 in 62ms
+ ✓ Compiled in 1349ms (1709 modules)
+ GET / 200 in 203ms
+ GET / 200 in 485ms
+ ✓ Compiled in 1123ms (1709 modules)
+ GET / 200 in 206ms
+ ✓ Compiled in 641ms (1709 modules)
+ GET / 200 in 162ms
+ GET /contact 200 in 39ms
+ GET / 200 in 29ms
+ GET /contact 200 in 21ms
+ ✓ Compiled in 1423ms (1709 modules)
+ GET /contact 200 in 181ms
+ GET /contact 200 in 484ms
+ GET /contact 200 in 151ms
+ GET / 200 in 48ms
+ GET /about 200 in 48ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 769ms (1700 modules)
+ GET /gallery/banarasi-brocade-02.jpg 404 in 1322ms
+ GET /about 200 in 690ms
+ GET /gallery 200 in 40ms
+ GET /contact 200 in 32ms
